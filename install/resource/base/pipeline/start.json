@@ -1,0 +1,61 @@
+{
+   "start": {
+ 		"recognition": "OCR",
+ 		"expected": "开始游戏",
+ 		"action": "Click",
+	   "post_delay": 5000,
+	    "next": [
+			"跳过"
+		]
+
+ 	},
+	"跳过": {
+
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"跳过2"
+		]
+	},
+	"跳过2": {
+
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"跳过3"
+		]
+	},
+	"跳过3": {
+
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"跳过4"
+		]
+	},
+	"跳过4": {
+
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"跳过5"
+		]
+	},
+	"跳过5": {
+
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"跳过6"
+		]
+	},
+	"跳过6": {
+		"timeout": 2000,
+		"action": "Key",
+		 "key": 27,
+		"next": [
+			"cancel"
+		]
+	}
+
+}

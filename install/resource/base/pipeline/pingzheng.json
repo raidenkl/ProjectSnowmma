@@ -1,0 +1,19 @@
+{
+   "凭证": {
+ 		"recognition": "OCR",
+ 		"expected": "夜阑凭证",
+ 		"action": "Click",
+	    "next": [
+			"每日任务"
+		]
+   },
+	"每日任务": {
+		"recognition": "OCR",
+ 		"expected": "每日任务",
+ 		"action": "Click",
+		"next": [
+			"领取"
+		]
+	}
+
+}

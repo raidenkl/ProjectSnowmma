@@ -1,0 +1,37 @@
+{
+   "好友体力": {
+ 		"recognition": "TemplateMatch",
+ 		"template": "haoyou.png",
+ 		"action": "Click",
+	   "timeout": 3000,
+	   	"next": [
+			"一键领取"
+		]
+ 	},
+	"一键领取": {
+		"timeout": 1000,
+		"recognition": "OCR",
+ 		"expected": "键收赠",
+ 		"action": "Click",
+		"next": [
+			"一键领取2"
+		]
+	},
+	"一键领取2": {
+		"timeout": 1000,
+		"recognition": "OCR",
+ 		"expected": "键收赠",
+ 		"action": "Click"
+
+	},
+	 "home": {
+ 		"action": "Key",
+		 "key": 27
+
+ 	},
+	 "cancel": {
+ 		"recognition": "OCR",
+ 		"expected": "取消",
+ 		"action": "Click"
+	 }
+}

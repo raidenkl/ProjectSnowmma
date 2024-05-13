@@ -1,0 +1,130 @@
+{
+    "adb": {
+        "adb_path": "G:/mumu/MuMuPlayer-12.0/shell/adb.exe",
+        "address": "127.0.0.1:16384",
+        "config": {
+            "extras": {
+                "mumu": {
+                    "enable": true,
+                    "index": 0,
+                    "path": "G:/mumu/MuMuPlayer-12.0"
+                }
+            }
+        }
+    },
+    "controller": {
+        "name": "桌面端",
+        "type": "Win32"
+    },
+    "resource": "官服",
+    "task": [
+        {
+            "name": "start",
+            "option": [
+            ]
+        },
+        {
+            "name": "供应站",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "好友体力",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "商店",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "活动",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "武器升级",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "后勤升级",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "好感",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "好感",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "任务",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        },
+        {
+            "name": "凭证",
+            "option": [
+            ]
+        },
+        {
+            "name": "主界面",
+            "option": [
+            ]
+        }
+    ],
+    "win32": {
+        "_placeholder": 0
+    }
+}

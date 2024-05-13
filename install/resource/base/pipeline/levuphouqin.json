@@ -1,0 +1,84 @@
+{
+   "后勤levelup": {
+ 	"recognition": "OCR",
+ 		"expected": "背包",
+ 		"action": "Click",
+	   "next": [
+			"后勤"
+		]
+   },
+	"后勤": {
+		"recognition": "OCR",
+ 		"expected": "后勤",
+ 		"action": "Click",
+		"next": [
+			"后勤筛选"
+		]
+	},
+	"后勤筛选": {
+		"recognition": "TemplateMatch",
+ 		"template": "shaixuan.png",
+ 		"action": "Click",
+		"next": [
+			"后勤等级"
+		]
+	},
+	"后勤等级": {
+		"recognition": "OCR",
+ 		"expected": "等级",
+ 		"action": "Click",
+		"post_delay": 100,
+	   "next": [
+			"后勤等级2"
+		]
+	},
+	"后勤等级2": {
+		"recognition": "OCR",
+ 		"expected": "等级",
+ 		"action": "Click",
+	   "next": [
+			"后勤确定"
+		]
+	},
+	"后勤确定": {
+		"recognition": "OCR",
+ 		"expected": "确定",
+ 		"action": "Click",
+	   "next": [
+			"后勤lev"
+		]
+	},
+	"后勤lev": {
+		"recognition": "ColorMatch",
+		"upper": [197,193,226],
+		"lower": [192,105,214],
+		"action": "Click",
+		"next": [
+			"后勤培养"
+		]
+	},
+	"后勤培养": {
+		"recognition": "OCR",
+		"expected": "后勤培养",
+		"action": "Click",
+		"next": [
+			"一键选择"
+		]
+	},
+	"一键选择": {
+		"recognition": "OCR",
+		"expected": "键选择",
+		"action": "Click",
+		"next": [
+			"cli培养"
+		]
+	},
+	"cli培养": {
+		"recognition": "TemplateMatch",
+ 		"template": "peiyang.png",
+ 		"action": "Click",
+		"next": [
+			"home"
+		]
+	}
+}

@@ -1,0 +1,91 @@
+{
+   "levelup": {
+ 	"recognition": "OCR",
+ 		"expected": "背包",
+ 		"action": "Click",
+	   "next": [
+			"筛选"
+		]
+   },
+	"筛选": {
+		"recognition": "TemplateMatch",
+ 		"template": "shaixuan.png",
+ 		"action": "Click",
+		"next": [
+			"等级"
+		]
+	},
+	"等级": {
+		"recognition": "OCR",
+ 		"expected": "等级",
+ 		"action": "Click",
+		"post_delay": 100,
+	   "next": [
+			"等级2"
+		]
+	},
+	"等级2": {
+		"recognition": "OCR",
+ 		"expected": "等级",
+ 		"action": "Click",
+	   "next": [
+			"确定"
+		]
+	},
+	"确定": {
+		"recognition": "OCR",
+ 		"expected": "确定",
+ 		"action": "Click",
+	   "next": [
+			"lev"
+		]
+	},
+	"lev": {
+		"recognition": "OCR",
+		"expected": "等级",
+		"action": "Click",
+		"next": [
+			"枪械培养"
+		]
+	},
+	"枪械培养": {
+		"recognition": "OCR",
+		"expected": "枪械培养",
+		"action": "Click",
+		"next": [
+			"升级"
+		]
+	},
+	"升级": {
+		"recognition": "OCR",
+		"expected": "升级",
+		"action": "Click",
+		"next": [
+			"加材料"
+		]
+	},
+	"加材料": {
+		"recognition": "TemplateMatch",
+ 		"template": "zairyo.png",
+ 		"action": "Click",
+		"next": [
+			"绿材料"
+		]
+	},
+	"绿材料": {
+		"recognition": "TemplateMatch",
+ 		"template": "lv.png",
+ 		"action": "Click",
+		"next": [
+			"clilevelup"
+		]
+	},
+	"clilevelup": {
+		"recognition": "TemplateMatch",
+ 		"template": "levelup.png",
+ 		"action": "Click",
+		"next": [
+			"home"
+		]
+	}
+}

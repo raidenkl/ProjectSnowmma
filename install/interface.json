@@ -1,0 +1,81 @@
+{
+    "controller": [
+        {
+            "name": "安卓端",
+            "type": "Adb"
+        },
+        {
+            "name": "桌面端",
+            "type": "Win32",
+            "win32": {
+                "method": "Search",
+                "class_name": ".*",
+                "screencap": 131072,
+                "window_name": "尘白禁区"
+            }
+        }
+    ],
+    "resource": [
+        {
+            "name": "官服",
+            "path": [
+                "{PROJECT_DIR}/resource/base"
+            ]
+        }
+    ],
+    "task": [
+        {
+            "name": "start",
+            "entry": "start"
+        },
+        {
+            "name": "主界面",
+            "entry": "主界面"
+        },
+        {
+            "name": "好友体力",
+            "entry": "好友体力"
+        },
+        {
+            "name": "商店",
+            "entry": "store"
+        },
+        {
+            "name": "活动",
+            "entry": "活动"
+        },
+        {
+            "name": "任务",
+            "entry": "mission"
+        },
+        {
+            "name": "取消",
+            "entry": "cancel"
+        },
+        {
+            "name": "home",
+            "entry": "home"
+        },
+        {
+            "name": "武器升级",
+            "entry": "levelup"
+        },
+        {
+            "name": "后勤升级",
+            "entry": "后勤levelup"
+        },
+        {
+            "name": "好感",
+            "entry": "好感"
+        },
+        {
+            "name": "凭证",
+            "entry": "凭证"
+        },
+        {
+            "name": "供应站",
+            "entry": "供应站"
+        }
+    ],
+    "version": "v0.0.1"
+}

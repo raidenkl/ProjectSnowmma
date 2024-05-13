@@ -1,0 +1,46 @@
+{
+   "好感": {
+	   "recognition": "OCR",
+	   "expected": "战斗",
+	   "action": "Click",
+	    "next": [
+			"个人故事"
+		]
+   },
+	"个人故事": {
+		"recognition": "TemplateMatch",
+ 		"template": "geren.png",
+ 		"action": "Click",
+		"next": [
+			"选人"
+		]
+
+	},
+	"选人": {
+		"timeout": 3000,
+		"recognition": "OCR",
+ 		"expected": "2/2",
+ 		"action": "Click",
+		"next": [
+			"行为02"
+		]
+	},
+	"行为02": {
+
+		"recognition": "OCR",
+ 		"expected": "行为02",
+ 		"action": "Click",
+		"next": [
+			"个人速战"
+		]
+	},
+	"个人速战": {
+
+		"recognition": "OCR",
+ 		"expected": "速战",
+ 		"action": "Click",
+		"next": [
+			"最大"
+		]
+	}
+}

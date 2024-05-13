@@ -1,0 +1,35 @@
+{
+   "供应站": {
+ 	"recognition": "OCR",
+ 		"expected": "供应站",
+ 		"action": "Click",
+	   "next": [
+			"礼物"
+		]
+   },
+	"礼物": {
+		"recognition": "TemplateMatch",
+ 		"template": "tili.png",
+ 		"action": "Click",
+		"next": [
+			"每日物资配给"
+		]
+	},
+	"每日物资配给": {
+ 	"recognition": "OCR",
+ 		"expected": "每日物资配给箱",
+ 		"action": "Click",
+	   "next": [
+			"购买"
+		]
+   },
+	"购买": {
+ 	"recognition": "OCR",
+ 		"expected": "购买",
+ 		"action": "Click",
+	   "next": [
+			"home"
+		]
+   }
+
+}

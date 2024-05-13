@@ -1,0 +1,19 @@
+{
+   "mission": {
+ 	"recognition": "OCR",
+ 		"expected": "任务",
+ 		"action": "Click",
+	   "next": [
+			"领取"
+		]
+   },
+	"领取": {
+		"recognition": "OCR",
+ 		"expected": "键领取",
+ 		"action": "Click",
+		"next": [
+			"home"
+		]
+	}
+
+}
