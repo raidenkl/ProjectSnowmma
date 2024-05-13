@@ -10,7 +10,8 @@
             "win32": {
                 "method": "Search",
                 "class_name": ".*",
-                "window_name": "Visual Studio"
+                "screencap": 131072,
+                "window_name": "尘白禁区"
             }
         }
     ],
@@ -20,56 +21,60 @@
             "path": [
                 "{PROJECT_DIR}/resource/base"
             ]
-        },
-        {
-            "name": "B 服",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/bilibili"
-            ]
         }
     ],
     "task": [
         {
-            "name": "普通任务",
-            "entry": "MyTask1"
+            "name": "start",
+            "entry": "start"
         },
         {
-            "name": "选项任务",
-            "entry": "MyTask2",
-            "option": [
-                "任务选项1"
-            ]
+            "name": "主界面",
+            "entry": "主界面"
         },
         {
-            "name": "参数任务",
-            "entry": "MyTask3",
-            "option": [
-                "任务选项1"
-            ],
-            "param": {}
+            "name": "好友体力",
+            "entry": "好友体力"
+        },
+        {
+            "name": "商店",
+            "entry": "store"
+        },
+        {
+            "name": "活动",
+            "entry": "活动"
+        },
+        {
+            "name": "任务",
+            "entry": "mission"
+        },
+        {
+            "name": "取消",
+            "entry": "cancel"
+        },
+        {
+            "name": "home",
+            "entry": "home"
+        },
+        {
+            "name": "武器升级",
+            "entry": "levelup"
+        },
+        {
+            "name": "后勤升级",
+            "entry": "后勤levelup"
+        },
+        {
+            "name": "好感",
+            "entry": "好感"
+        },
+        {
+            "name": "凭证",
+            "entry": "凭证"
+        },
+        {
+            "name": "供应站",
+            "entry": "dailytili"
         }
-    ],
-    "option": {
-        "任务选项1": {
-            "cases": [
-                {
-                    "name": "文本1",
-                    "param": {
-                        "OcrTask": {
-                            "text": "文本1"
-                        }
-                    }
-                },
-                {
-                    "name": "文本2",
-                    "param": {
-                        "OcrTask": {
-                            "text": "文本2"
-                        }
-                    }
-                }
-            ]
-        }
-    }
+    ]
 }

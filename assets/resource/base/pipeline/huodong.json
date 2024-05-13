@@ -1,0 +1,56 @@
+{
+   "活动": {
+		"recognition": "FeatureMatch",
+ 		"template": "huodong.png",
+ 		"action": "Click",
+	    "next": [
+			"赐福集会"
+
+		]
+   },
+	"赐福集会": {
+		"recognition": "OCR",
+ 		"expected": "赐福集会",
+ 		"action": "Click",
+		"next": [
+			"深渊"
+
+		]
+
+	},
+	"深渊": {
+
+		"recognition": "TemplateMatch",
+ 		"template": "shenyuan.png",
+ 		"action": "Click",
+		"next": [
+			"速战"
+		]
+
+	},
+	"速战": {
+		"recognition": "OCR",
+ 		"expected": "速战",
+ 		"action": "Click",
+		"next": [
+			"最大"
+		]
+	},
+	"最大": {
+		"recognition": "OCR",
+ 		"expected": "最大",
+ 		"action": "Click",
+		"next": [
+			"开始作战"
+		]
+	},
+	"开始作战": {
+		"recognition": "OCR",
+ 		"expected": "开始作战",
+ 		"action": "Click",
+		"next": [
+			"home"
+		]
+	}
+
+}
