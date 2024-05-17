@@ -8,7 +8,7 @@
 ## 1.食用方法
 把本仓库的源码下载到pc上。
 
-下载 MaaFramework 的 [Release 包](https://github.com/MaaXYZ/MaaFramework/releases)，解压到 `deps` 文件夹中。
+下载 MaaFramework 的 [Release 包](https://github.com/MaaXYZ/MaaFramework/releases)，(我用的是1.7.1版本) 解压到 `deps` 文件夹中。
 
 配置资源文件。
 
