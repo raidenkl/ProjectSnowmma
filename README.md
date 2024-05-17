@@ -12,9 +12,9 @@
 
 配置资源文件。
 
-    ```bash
+```bash
     python ./configure.py
-    ```
+    
 
 按需求修改 `assets` 中的资源文件，请参考 MaaFramework 相关文档。
 
@@ -22,13 +22,13 @@
 
         1. 执行安装脚本
            
-      ```bash
+     
       python ./install.py
-      ```
+      
       
         2. 运行 `install/MaaPiCli.exe`，这时会有一个命令行。
 
-
+```
 打开尘白禁区
 
 在命令行里输入1，回车，选择桌面端还是模拟器端。
