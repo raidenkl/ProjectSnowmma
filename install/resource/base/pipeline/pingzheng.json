@@ -1,7 +1,7 @@
 {
    "凭证": {
- 		"recognition": "OCR",
- 		"expected": "夜阑凭证",
+ 		"recognition": "TemplateMatch",
+ 		"template": "pingzh.png",
  		"action": "Click",
 	    "next": [
 			"每日任务"

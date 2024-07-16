@@ -10,8 +10,16 @@
             "win32": {
                 "method": "Search",
                 "class_name": ".*",
-                "screencap": 131072,
                 "window_name": "尘白禁区"
+            }
+        },
+        {
+            "name": "国际服",
+            "type": "Win32",
+            "win32": {
+                "method": "Search",
+                "class_name": ".*",
+                "window_name": "Snowbreak:Containment Zone"
             }
         }
     ],
@@ -57,14 +65,6 @@
             "entry": "home"
         },
         {
-            "name": "武器升级",
-            "entry": "levelup"
-        },
-        {
-            "name": "后勤升级",
-            "entry": "后勤levelup"
-        },
-        {
             "name": "好感",
             "entry": "好感"
         },
@@ -74,7 +74,7 @@
         },
         {
             "name": "供应站",
-            "entry": "供应站"
+            "entry": "dailytili"
         }
     ],
     "version": "v0.0.1"

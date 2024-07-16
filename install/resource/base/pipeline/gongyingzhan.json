@@ -1,5 +1,5 @@
 {
-   "供应站": {
+   "dailytili": {
  	"recognition": "OCR",
  		"expected": "供应站",
  		"action": "Click",

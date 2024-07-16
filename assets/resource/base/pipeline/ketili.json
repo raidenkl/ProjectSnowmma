@@ -1,0 +1,18 @@
+{
+   "磕体力": {
+		"recognition": "FeatureMatch",
+ 		"template": "ketili.png",
+ 		"action": "Click",
+	    "next": [
+			"确定体力"
+
+		]
+   },
+	"确定体力": {
+		"recognition": "OCR",
+ 		"expected": "确定",
+ 		"action": "Click"
+
+	}
+
+}

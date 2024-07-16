@@ -4,15 +4,16 @@
  		"template": "huodong.png",
  		"action": "Click",
 	    "next": [
-			"赐福集会"
+			"清体力"
 
 		]
    },
-	"赐福集会": {
+	"清体力": {
 		"recognition": "OCR",
- 		"expected": "赐福集会",
+ 		"expected": "风暴之眼",
  		"action": "Click",
 		"next": [
+
 			"深渊"
 
 		]
@@ -20,7 +21,7 @@
 	},
 	"深渊": {
 
-		"recognition": "TemplateMatch",
+		"recognition": "FeatureMatch",
  		"template": "shenyuan.png",
  		"action": "Click",
 		"next": [
